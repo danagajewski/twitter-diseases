@@ -128,7 +128,7 @@ def generate_pull():
 
         update_schema('twit', db)
 
-        time.sleep(900)
+        time.sleep(450)
 
         #append to end of csv
 
