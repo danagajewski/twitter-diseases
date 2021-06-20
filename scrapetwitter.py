@@ -114,11 +114,8 @@ numtweet = 1000
 
 def generate_pull():
 
-
-
     hashtags_to_scrape = get_hashtags_from_file('/Users/danagajewski/Documents/Summer2021/'
                                                 'CS3200/Project/Python/hashtags_to_pull.csv')
-
 
     for hashtag in hashtags_to_scrape:
         print(hashtag)
@@ -135,9 +132,6 @@ def generate_pull():
     db.to_csv(filename, a=True, index=False, header=False)
 
     return db
-
-
-
 
 # we will save our database as a CSV file.
 #db.to_csv(filename)

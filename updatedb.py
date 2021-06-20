@@ -20,7 +20,6 @@ def update_schema(schema, data):
                                                                              new_timestamp, row[0],
                                                                              random.randint(1, 148), row[5])
 
-
     cursor = db.cursor()
 
     query1 = "insert into tweet (hashtag_id, text, datetime, username, location_id," \
