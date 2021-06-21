@@ -105,7 +105,7 @@ filename = 'scraped_tweets.csv'
 
 
 
-date_since = '2021-06-10'
+date_since = '2021-06-19'
 # # number of tweets you want to extract in one run
 numtweet = 1000
 # scrape(db, words, date_since, numtweet)
@@ -129,7 +129,7 @@ def generate_pull():
 
         #append to end of csv
 
-    db.to_csv(filename, a=True, index=False, header=False)
+    #b.to_csv(filename, a=True, index=False, header=False)
 
     return db
 
